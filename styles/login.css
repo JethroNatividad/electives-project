@@ -16,8 +16,19 @@
     padding: 30px;
     box-shadow: 0px 10px 15px -6px rgba(0,0,0,0.1);
     border-radius: 5px;
-
 }
+
+.form-submit-group {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.form-submit-group > p {
+    font-size: small;
+    margin-left: 10px;
+}
+
 main {
     display: flex;
     justify-content: center;
