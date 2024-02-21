@@ -11,6 +11,10 @@
     background-color: inherit;
     outline: none;
 }
+.searchbar > div > img {
+    height: 30px;
+    width: 30px;
+}
 
 .searchbar {
     background: #f4f4f4;
