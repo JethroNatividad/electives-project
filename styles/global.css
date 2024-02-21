@@ -10,16 +10,28 @@
     border: none;
     background-color: inherit;
     outline: none;
+    font-size: medium;
+    width: 100%;
 }
-.searchbar > div > img {
-    height: 30px;
-    width: 30px;
+
+.searchbar > input::placeholder {
+    color: rgb(30, 30, 30);
+}
+
+.searchbar > img {
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+
 }
 
 .searchbar {
     background: #f4f4f4;
     display: flex;
+    align-items: center;
     width: 300px;
+    padding: 10px;
+    border-radius: 25px;
 }
 
 .btn {
