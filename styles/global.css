@@ -6,6 +6,10 @@
     color: rgb(30, 30, 30)
 }
 
+p {
+    font-size: medium;
+}
+
 .searchbar > input {
     border: none;
     background-color: inherit;
@@ -34,10 +38,20 @@
     border-radius: 25px;
 }
 
+.icon-btn {
+    display: flex;
+    align-items: center;
+}
+.icon-btn > img {
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+}
+
 .btn {
-    padding: 10px 30px;
+    padding: 10px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
 }
 
