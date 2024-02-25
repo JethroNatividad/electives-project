@@ -16,17 +16,46 @@ main {
     justify-content: center;
 }
 
+form > * + * {
+    margin-top:  0.5rem;
+}
+
 .input-group {
     display: flex;
     flex-direction: column;
 }
+
+.input-group > * + * {
+    margin-top:  0.25rem;
+}
+
 .text-input {
-    padding: 6px 12px;
+    padding: 8px 12px;
     font-size: small;
     background: inherit;
     border: 1px solid hsl(240, 3.7%, 15.9%);
     border-radius: 5px;
     color: inherit;
+}
+
+.input-label {
+    font-size: small;
+    color: hsl(240, 5%, 64.9%);
+}
+
+.btn {
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: none;
+    cursor:pointer;
+}
+
+.btn-login {
+    width: 100%;
+}
+
+.heading {
+    margin-bottom: 1.25rem;
 }
 /* 
 .image {
