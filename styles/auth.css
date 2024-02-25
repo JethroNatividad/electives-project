@@ -62,7 +62,7 @@ form > * + * {
     cursor:pointer;
 }
 
-.btn-login {
+.btn-submit {
     width: 100%;
 }
 
