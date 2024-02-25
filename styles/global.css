@@ -100,10 +100,16 @@ header {
     background-color: #efefef;
 }
 
+.write-post-btn > p {
+    display: none;
+}
+
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-    
+    .write-post-btn > p {
+        display: block;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
