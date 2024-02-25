@@ -1,3 +1,34 @@
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    padding: 10px;
+    box-shadow: none;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.container {
+    max-width: 500px;
+    width: 100%;
+    padding: 30px;
+    box-shadow: 0px 10px 15px -6px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+.form-submit-group {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.form-submit-group > p {
+    font-size: small;
+    margin-left: 10px;
+}
+
 main {
 
 }
@@ -17,29 +48,11 @@ main {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    main {
-        flex-direction: row;
-    }
-    .content {
-        width: 60%;
-    }
-    
-    .image {
-        width: 40%;
-        height: 100%;
-        background-size: cover;
-    }
+
  }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-    .content {
-        width: 50%;
-    }
-    
-    .image {
-        width: 50%;
-    }
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
