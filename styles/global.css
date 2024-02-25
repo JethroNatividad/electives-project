@@ -8,18 +8,19 @@
 
 
 p {
-    font-size: medium;
+    font-size: small;
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    padding: 20px 20px;
+    padding: 10px 20px;
     box-shadow: 0px 4px 16px -1px rgba(0,0,0,0.15);
 }
 
 .header-logo {
     margin-right: 20px;
+    font-size: 1.5rem;
 }
 
 .header-left {
@@ -36,8 +37,8 @@ header {
 }
 
 .profile {
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     background-color: #000;
 }
@@ -46,7 +47,7 @@ header {
     border: none;
     background-color: inherit;
     outline: none;
-    font-size: medium;
+    font-size: small;
     width: 100%;
 }
 
@@ -55,36 +56,37 @@ header {
 }
 
 .searchbar > img {
-    height: 25px;
-    width: 25px;
+    height: 15px;
+    width: 15px;
     margin-right: 10px;
 
 }
 
 .searchbar {
-    background: #f4f4f4;
     display: flex;
     align-items: center;
     width: 300px;
-    padding: 15px;
+    padding: 10px;
     border-radius: 25px;
+    border: 1px solid hsl(240, 3.7%, 15.9%);
 }
 
 .icon-btn {
     display: flex;
     align-items: center;
 }
+
 .icon-btn > img {
-    height: 30px;
-    width: 30px;
-    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+    margin-right: 2px;
 }
 
 .btn {
-    padding: 10px 20px;
+    padding: 8px 16px;
+    border-radius: 5px;
     border: none;
-    border-radius: 10px;
-    cursor: pointer;
+    cursor:pointer;
 }
 
 .btn-primary {
