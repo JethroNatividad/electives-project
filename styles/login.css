@@ -104,6 +104,13 @@ hr {
         background-color: rgb(24 24 27);
         padding: 3rem;
     }
+
+    .welcome {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        font-style: italic;
+        color: hsl(240, 5%, 64.9%);
+    }
     
     .content {
         width: 50%;
