@@ -7,8 +7,9 @@ main {
 
 .title {
     position: absolute;
-    top: 3rem;
-    left: 3rem;
+    top: 2rem;
+    left: 2rem;
+    font-size: 1.75rem;
 }
 
 .hero {
@@ -69,6 +70,7 @@ form > * + * {
 .heading {
     margin-bottom: 1.25rem;
     text-align: center;
+    font-size: 1.5rem;
 }
 
 hr {
@@ -109,8 +111,15 @@ hr {
     .welcome {
         font-size: 1.5rem;
         margin-bottom: 1rem;
+        line-height: 1.5;
         font-style: italic;
         color: hsl(240, 5%, 64.9%);
+    }
+
+    .title {
+        font-size: 2rem;
+        top: 3rem;
+        left: 3rem;
     }
     
     .content {
