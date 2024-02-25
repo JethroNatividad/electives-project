@@ -43,7 +43,7 @@ header {
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    background-color: #000;
+    background-color: #efefef;
 }
 
 .searchbar > input {
@@ -81,8 +81,8 @@ header {
 }
 
 .icon-btn > img {
-    height: 20px;
-    width: 20px;
+    height: 16px;
+    width: 16px;
     margin-right: 2px;
 }
 
@@ -94,5 +94,5 @@ header {
 }
 
 .btn-primary {
-    background-color: #a2add8;
+    background-color: #efefef;
 }
