@@ -99,6 +99,8 @@ hr {
         flex-direction: column;
         justify-content: end;
         width: 50%;
+        background: url("../assets/images/hero.webp") no-repeat center center;
+        background-size: cover;
         background-color: rgb(24 24 27);
         padding: 3rem;
     }
