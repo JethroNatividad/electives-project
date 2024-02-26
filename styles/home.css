@@ -18,6 +18,11 @@ main {
 .blog-post {
     width: 100%;
     padding: 20px 0;
+    /* border-bottom: 1px solid hsl(240, 3.7%, 15.9%);
+    border-top: 1px solid hsl(240, 3.7%, 15.9%); */
+}
+
+.blog-post:nth-child(even){
     border-bottom: 1px solid hsl(240, 3.7%, 15.9%);
     border-top: 1px solid hsl(240, 3.7%, 15.9%);
 }
@@ -77,6 +82,7 @@ main {
 .heart-btn > img {
     height: 100%;
     width: 100%;
+    cursor: pointer;
 }
 
 .save-btn {
@@ -86,6 +92,7 @@ main {
 .save-btn > img {
     height: 100%;
     width: 100%;
+    cursor: pointer;
 }
 
 .blog-action > * + * {
