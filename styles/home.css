@@ -34,6 +34,7 @@ main {
 .author-details {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .dot, .date, .read-time {
@@ -48,6 +49,7 @@ main {
     background-color: hsl(0, 0%, 98%);
 }
 .blog-content {
+    cursor: pointer;
     display: flex;
     justify-content: space-between;
     align-items: center;
