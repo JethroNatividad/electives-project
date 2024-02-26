@@ -42,3 +42,19 @@ main {
     border-radius: 50%;
     background-color: hsl(0, 0%, 98%);
 }
+.blog-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0
+}
+.blog-content-left {
+    flex: 1;
+}
+
+.blog-image {
+    margin-left: 50px;
+    background-color: hsl(0, 0%, 98%);
+    width: 120px;
+    height: 120px;
+}
