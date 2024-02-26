@@ -48,6 +48,17 @@ main {
     align-items: center;
     padding: 10px 0
 }
+
+.blog-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.blog-description {
+    line-height: 1.5rem;
+    font-size: medium;
+}
+
 .blog-content-left {
     flex: 1;
 }
