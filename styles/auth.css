@@ -5,6 +5,13 @@ main {
     color: hsl(0, 0%, 98%);
 }
 
+hr {
+    border: none;
+    height: 1px;
+    background: hsl(240, 3.7%, 15.9%);
+
+}
+
 .title {
     position: absolute;
     top: 2rem;
