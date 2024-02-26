@@ -64,8 +64,34 @@ main {
 }
 
 .blog-image {
-    margin-left: 50px;
+    margin-left: 30px;
     background-color: hsl(0, 0%, 98%);
-    width: 120px;
-    height: 120px;
+    width: 80px;
+    height: 80px;
 }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .blog-image {
+        margin-left: 50px;
+        width: 120px;
+        height: 120px;
+    }
+
+    .blog-description {
+        line-height: 1.5rem;
+        font-size: medium;
+    }
+
+ }
+
+ /* Large devices (desktops, 992px and up) */
+ /* @media (min-width: 992px) {
+
+
+ }  */
