@@ -26,11 +26,26 @@ main {
     margin-bottom: 20px;
 }
 
+.author-details {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.author-pic {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: hsl(0, 0%, 98%);
+    margin-right: 10px;
+
+}
 .blog-info {
     display: flex;
     align-items: center;
     color: hsl(240, 5%, 64.9%);
     font-size: small;
+    margin-top: 5px;
 }
 
 .blog-info > * + * {
