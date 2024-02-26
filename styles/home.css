@@ -70,6 +70,24 @@ main {
     height: 80px;
 }
 
+.heart-btn {
+    height: 30px;
+    width: 30px;
+}
+.heart-btn > img {
+    height: 100%;
+    width: 100%;
+}
+
+.save-btn {
+    height: 30px;
+    width: 30px;
+}
+.save-btn > img {
+    height: 100%;
+    width: 100%;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 
