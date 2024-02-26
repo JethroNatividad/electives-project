@@ -1,0 +1,7 @@
+main {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding-top: 59px;
+    color: hsl(0, 0%, 98%);
+}
