@@ -180,3 +180,12 @@ hr {
     margin-top: 10px;
     line-height: 1.25rem;
 }
+
+.comment:nth-child(even){
+    border-bottom: 1px solid hsl(240, 3.7%, 15.9%);
+    border-top: 1px solid hsl(240, 3.7%, 15.9%);
+}
+
+.comment {
+    padding: 20px 0px;
+}
