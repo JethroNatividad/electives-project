@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Create</title>
     <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/create.css" />
   </head>
   <body>
     <header>
@@ -42,13 +43,43 @@
     </header>
     <main>
       <!-- Container -->
-      <div>
-        <!-- title input -->
-        <!-- drag and drop image -->
-        <!-- Content -->
-        <!-- Toolbar -->
-        <!-- Textarea -->
+      <div class="container">
+        <form action="#">
+          <!-- title input -->
+          <div class="input-group">
+            <input
+              class="text-input"
+              placeholder="Title"
+              type="title"
+              name="text"
+              id="title"
+            />
+          </div>
+          <div id="drop-area">
+            <input
+              type="file"
+              id="fileElem"
+              accept="image/png, image/jpeg, image/webp"
+              style="display: none"
+              onchange="handleFiles(this.files)"
+            />
+            <label for="fileElem" class="drop-area-label"
+              >Drag and drop your image here or click to select</label
+            >
+            <div id="preview">
+              <button id="removeButton" style="display: none">
+                Remove Image
+              </button>
+            </div>
+          </div>
+
+          <!-- drag and drop image -->
+          <!-- Content -->
+          <!-- Toolbar -->
+          <!-- Textarea -->
+        </form>
       </div>
     </main>
+    <script src="./js/create.js"></script>
   </body>
 </html>
