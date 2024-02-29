@@ -23,9 +23,8 @@ function handleFiles(files) {
         document.getElementById("removeButton").style.display = "block"; // Show the remove button
       };
       reader.readAsDataURL(file);
-    } else {
-      alert("Please select a valid image file (PNG, JPG, JPEG, or WEBP).");
     }
+    // Ignore other files
   }
 }
 
