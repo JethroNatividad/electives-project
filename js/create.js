@@ -1,3 +1,16 @@
+document
+  .getElementById("drop-area")
+  .addEventListener("dragover", function (event) {
+    event.preventDefault();
+    event.stopPropagation();
+  });
+
+document.getElementById("drop-area").addEventListener("drop", function (event) {
+  event.preventDefault();
+  event.stopPropagation();
+  handleFiles(event.dataTransfer.files);
+});
+
 function handleFiles(files) {
   if (files.length > 0) {
     const file = files[0];
