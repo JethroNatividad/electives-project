@@ -17,10 +17,10 @@ function handleFiles(files) {
     if (file.type.match(/image\/png|image\/jpeg|image\/webp/)) {
       const reader = new FileReader();
       reader.onloadend = function (e) {
-        document.getElementById("preview").style.backgroundImage =
+        document.getElementById("preview-img").style.backgroundImage =
           "url(" + e.target.result + ")";
         document.getElementById("preview").style.display = "block";
-        document.getElementById("removeButton").style.display = "block"; // Show the remove button
+        // document.getElementById("removeButton").style.display = "block"; // Show the remove button
       };
       reader.readAsDataURL(file);
     }

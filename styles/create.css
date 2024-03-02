@@ -65,6 +65,19 @@ main {
     position: absolute;
     top: 0;
     left: 0;
-    background-size: cover;
+    background: hsl(240, 10%, 3.9%);
+}
+
+#preview-img {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
+}
+
+#removeButton {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
