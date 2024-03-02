@@ -6,6 +6,10 @@
     <title>Create</title>
     <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/create.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/quill@2.0.0-rc.2/dist/quill.snow.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -105,9 +109,19 @@
           <!-- Content -->
           <!-- Toolbar -->
           <!-- Textarea -->
+
+          <div id="editor">
+            <p>Write an epic blog...</p>
+          </div>
         </form>
       </div>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/quill@2.0.0-rc.2/dist/quill.js"></script>
     <script src="./js/create.js"></script>
+    <script>
+      const quill = new Quill("#editor", {
+        theme: "snow",
+      });
+    </script>
   </body>
 </html>
