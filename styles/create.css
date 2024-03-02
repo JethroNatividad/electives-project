@@ -6,7 +6,10 @@ main {
   padding-top: 59px;
   justify-content: center;
 }
-
+.title {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
 form > * + * {
   margin-top: 20px;
 }
