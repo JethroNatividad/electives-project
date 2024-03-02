@@ -483,7 +483,7 @@
   position: absolute;
 }
 .ql-editor.ql-blank::before {
-  color: rgba(0, 0, 0, 0.6);
+  color: hsl(240, 5%, 64.9%);
   content: attr(data-placeholder);
   font-style: italic;
   left: 15px;

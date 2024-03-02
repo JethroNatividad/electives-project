@@ -106,9 +106,7 @@
           <!-- Toolbar -->
           <!-- Textarea -->
 
-          <div id="editor">
-            <p>Write an epic blog...</p>
-          </div>
+          <div id="editor"></div>
         </form>
       </div>
     </main>
@@ -116,6 +114,7 @@
     <script src="./js/create.js"></script>
     <script>
       const quill = new Quill("#editor", {
+        placeholder: "Write an epic blog...",
         theme: "snow",
       });
     </script>
