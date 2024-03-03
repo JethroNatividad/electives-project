@@ -30,6 +30,10 @@ main {
   padding: 20px 0px;
 }
 
+.blog > * + * {
+  margin-top: 10px;
+}
+
 .blog-title {
   font-size: 1rem;
 }
