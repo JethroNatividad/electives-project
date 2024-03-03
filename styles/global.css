@@ -5,6 +5,12 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+hr {
+  border: none;
+  height: 1px;
+  background: hsl(240, 3.7%, 15.9%);
+}
+
 body {
   background: hsl(240, 10%, 3.9%);
   min-height: 100vh;
