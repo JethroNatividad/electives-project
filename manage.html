@@ -8,7 +8,49 @@
     <link rel="stylesheet" href="./styles/create.css" />
   </head>
   <body>
-    Manage blogs
+    <header>
+      <div class="header-left">
+        <h1 class="header-logo"><a href="./index.html">Blog Site</a></h1>
+        <form action="#">
+          <div class="searchbar">
+            <img
+              class="search-icon"
+              src="./assets/icons/search.svg"
+              alt="search"
+            />
+            <input type="text" placeholder="Search" />
+          </div>
+
+          <div class="searchbar-btn">
+            <img
+              class="search-icon"
+              src="./assets/icons/search.svg"
+              alt="search"
+            />
+          </div>
+        </form>
+      </div>
+      <div class="header-right">
+        <!-- Searchbar -->
+        <button
+          id="write-post-btn"
+          class="btn btn-primary icon-btn write-post-btn"
+        >
+          <img src="./assets/icons/write.svg" alt="write" />
+          <p>Write a post</p>
+        </button>
+        <div class="profile">
+          <div class="dropdown-menu">
+            <a href="#">Profile</a>
+            <a href="#">Manage Blogs</a>
+            <a href="#">Settings</a>
+            <a href="./login.html">Sign Out</a>
+          </div>
+        </div>
+        <!-- write button -->
+        <!-- profile -->
+      </div>
+    </header>
     <script src="./js/main.js"></script>
   </body>
 </html>
