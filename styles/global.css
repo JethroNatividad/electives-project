@@ -59,7 +59,9 @@ header {
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  background-color: #efefef;
+  background-image: url("../assets/images/profile-1.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .searchbar > input {
