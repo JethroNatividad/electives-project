@@ -23,7 +23,13 @@ main {
   height: 60px;
   width: 60px;
   border-radius: 50%;
-  background-color: hsl(0, 0%, 98%);
+  overflow: hidden;
+}
+
+.profile-pic > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .profile-name {
