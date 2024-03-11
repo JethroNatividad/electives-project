@@ -3,6 +3,12 @@ document.querySelector("#write-post-btn").addEventListener("click", () => {
   window.location.href = "/create.html";
 });
 
+// id="edit-btn"
+document.querySelector("#edit-btn").addEventListener("click", () => {
+  // redirect to /edit.html
+  window.location.href = "/edit.html";
+});
+
 const profile = document.querySelector(".profile");
 const dropdown = document.querySelector(".dropdown-menu");
 
