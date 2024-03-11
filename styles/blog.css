@@ -125,8 +125,14 @@ hr {
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  background-color: hsl(0, 0%, 98%);
   margin-right: 10px;
+  overflow: hidden;
+}
+
+.comment-input-pic > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .comment-input {
