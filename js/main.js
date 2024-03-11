@@ -3,6 +3,16 @@ document.querySelector("#write-post-btn").addEventListener("click", () => {
   window.location.href = "/create.html";
 });
 
+document.querySelector("#save-draft-btn").addEventListener("click", () => {
+  // redirect to /create.html
+  window.location.href = "/manage.html";
+});
+
+document.querySelector("#publish-btn").addEventListener("click", () => {
+  // redirect to /create.html
+  window.location.href = "/manage.html";
+});
+
 const profile = document.querySelector(".profile");
 const dropdown = document.querySelector(".dropdown-menu");
 
